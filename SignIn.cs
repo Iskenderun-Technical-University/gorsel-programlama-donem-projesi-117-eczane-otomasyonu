@@ -24,7 +24,9 @@ namespace Giris_Sayfasi
 
         private void signButton_Click(object sender, EventArgs e)
         {
-
+            girisSayfasi frm = new girisSayfasi();
+            frm.Show();
+            Hide();
         }
     }
 }

@@ -39,5 +39,11 @@ namespace Giris_Sayfasi
             Hide();
         }
 
+        private void logButton_Click(object sender, EventArgs e)
+        {
+            AnaSayfa frm = new AnaSayfa();
+            frm.Show();
+            Hide();
+        }
     }
 }

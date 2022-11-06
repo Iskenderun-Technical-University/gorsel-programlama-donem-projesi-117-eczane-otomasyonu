@@ -63,6 +63,7 @@
             this.logButton.TabIndex = 1;
             this.logButton.Text = "Login";
             this.logButton.UseVisualStyleBackColor = false;
+            this.logButton.Click += new System.EventHandler(this.logButton_Click);
             // 
             // nameLog
             // 
