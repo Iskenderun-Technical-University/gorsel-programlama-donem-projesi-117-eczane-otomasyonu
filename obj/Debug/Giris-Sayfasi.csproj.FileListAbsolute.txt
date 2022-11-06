@@ -1,0 +1,11 @@
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\bin\Debug\Giris-Sayfasi.exe.config
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\bin\Debug\Giris-Sayfasi.exe
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\bin\Debug\Giris-Sayfasi.pdb
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris-Sayfasi.csproj.AssemblyReference.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris-Sayfasi.csproj.SuggestedBindingRedirects.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris_Sayfasi.girisSayfasi.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris_Sayfasi.Properties.Resources.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris-Sayfasi.csproj.GenerateResource.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris-Sayfasi.csproj.CoreCompileInputs.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris-Sayfasi.exe
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris-Sayfasi.pdb
