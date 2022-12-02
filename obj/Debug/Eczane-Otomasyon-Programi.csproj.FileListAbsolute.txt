@@ -36,3 +36,5 @@ C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.CoreCompileInputs.cache
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.exe
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.pdb
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.ReceteDuzenle.resources
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.İlacDuzenle.resources

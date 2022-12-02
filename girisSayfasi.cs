@@ -45,5 +45,10 @@ namespace Giris_Sayfasi
             frm.Show();
             Hide();
         }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }

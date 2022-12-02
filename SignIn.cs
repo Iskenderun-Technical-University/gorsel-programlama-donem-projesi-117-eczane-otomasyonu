@@ -26,7 +26,7 @@ namespace Giris_Sayfasi
         {
             girisSayfasi frm = new girisSayfasi();
             frm.Show();
-            Hide();
+            this.Close();
         }
     }
 }

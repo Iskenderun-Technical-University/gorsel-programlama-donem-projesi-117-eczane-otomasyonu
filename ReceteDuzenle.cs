@@ -21,5 +21,22 @@ namespace Giris_Sayfasi
         {
 
         }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void AnaSayfayaDonusButonu_Click(object sender, EventArgs e)
+        {
+            AnaSayfa frm = new AnaSayfa();
+            frm.Show();
+            this.Close();
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

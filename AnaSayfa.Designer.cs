@@ -30,8 +30,8 @@
         {
             this.closeButton = new System.Windows.Forms.Button();
             this.ilacList = new System.Windows.Forms.ListBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.ReceteButon = new System.Windows.Forms.Button();
+            this.İlacButon = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
@@ -53,39 +53,40 @@
             // 
             this.ilacList.FormattingEnabled = true;
             this.ilacList.ItemHeight = 21;
-            this.ilacList.Location = new System.Drawing.Point(29, 126);
+            this.ilacList.Location = new System.Drawing.Point(29, 105);
             this.ilacList.Name = "ilacList";
-            this.ilacList.Size = new System.Drawing.Size(1304, 256);
+            this.ilacList.Size = new System.Drawing.Size(1304, 277);
             this.ilacList.TabIndex = 8;
             // 
-            // button4
+            // ReceteButon
             // 
-            this.button4.BackColor = System.Drawing.Color.Pink;
-            this.button4.Location = new System.Drawing.Point(29, 25);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(256, 32);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Reçete Düzenle";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.ReceteButon.BackColor = System.Drawing.Color.Pink;
+            this.ReceteButon.Location = new System.Drawing.Point(29, 25);
+            this.ReceteButon.Name = "ReceteButon";
+            this.ReceteButon.Size = new System.Drawing.Size(256, 32);
+            this.ReceteButon.TabIndex = 15;
+            this.ReceteButon.Text = "Reçete Düzenle";
+            this.ReceteButon.UseVisualStyleBackColor = false;
+            this.ReceteButon.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button9
+            // İlacButon
             // 
-            this.button9.BackColor = System.Drawing.Color.Pink;
-            this.button9.Location = new System.Drawing.Point(291, 25);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(256, 32);
-            this.button9.TabIndex = 20;
-            this.button9.Text = "İlaç Düzenle";
-            this.button9.UseVisualStyleBackColor = false;
+            this.İlacButon.BackColor = System.Drawing.Color.Pink;
+            this.İlacButon.Location = new System.Drawing.Point(291, 25);
+            this.İlacButon.Name = "İlacButon";
+            this.İlacButon.Size = new System.Drawing.Size(256, 32);
+            this.İlacButon.TabIndex = 20;
+            this.İlacButon.Text = "İlaç Düzenle";
+            this.İlacButon.UseVisualStyleBackColor = false;
+            this.İlacButon.Click += new System.EventHandler(this.İlacButon_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 21;
-            this.listBox1.Location = new System.Drawing.Point(29, 431);
+            this.listBox1.Location = new System.Drawing.Point(29, 410);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1304, 256);
+            this.listBox1.Size = new System.Drawing.Size(1304, 277);
             this.listBox1.TabIndex = 21;
             // 
             // AnaSayfa
@@ -96,8 +97,8 @@
             this.ClientSize = new System.Drawing.Size(1478, 733);
             this.ControlBox = false;
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.İlacButon);
+            this.Controls.Add(this.ReceteButon);
             this.Controls.Add(this.ilacList);
             this.Controls.Add(this.closeButton);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -113,8 +114,8 @@
 
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.ListBox ilacList;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button ReceteButon;
+        private System.Windows.Forms.Button İlacButon;
         private System.Windows.Forms.ListBox listBox1;
     }
 }

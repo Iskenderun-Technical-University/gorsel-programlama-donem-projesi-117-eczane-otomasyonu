@@ -16,5 +16,17 @@ namespace Giris_Sayfasi
         {
             InitializeComponent();
         }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void AnaSayfayaDonusButonu_Click(object sender, EventArgs e)
+        {
+            AnaSayfa frm = new AnaSayfa();
+            frm.Show();
+            this.Close();
+        }
     }
 }

@@ -24,7 +24,16 @@ namespace Giris_Sayfasi
 
         private void button4_Click(object sender, EventArgs e)
         {
+            ReceteDuzenle frm = new ReceteDuzenle();
+            frm.Show();
+            this.Close();
+        }
 
+        private void İlacButon_Click(object sender, EventArgs e)
+        {
+            İlacDuzenle frm = new İlacDuzenle();
+            frm.Show();
+            this.Close();
         }
     }
 }

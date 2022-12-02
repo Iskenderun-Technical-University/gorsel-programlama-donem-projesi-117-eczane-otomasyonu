@@ -35,6 +35,7 @@
             this.psswrdLog = new System.Windows.Forms.Label();
             this.PsswrdTxtBox = new System.Windows.Forms.TextBox();
             this.closeButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // signButton
@@ -128,6 +129,17 @@
             this.closeButton.UseVisualStyleBackColor = false;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(12, 661);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(151, 21);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Hesabın yok mu ? ";
+            this.label1.Click += new System.EventHandler(this.label1_Click_2);
+            // 
             // girisSayfasi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -135,6 +147,7 @@
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1478, 733);
             this.ControlBox = false;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.PsswrdTxtBox);
             this.Controls.Add(this.psswrdLog);
@@ -159,6 +172,7 @@
         private System.Windows.Forms.Label psswrdLog;
         private System.Windows.Forms.TextBox PsswrdTxtBox;
         private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.Label label1;
     }
 }
 
