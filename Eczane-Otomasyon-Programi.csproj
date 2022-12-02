@@ -52,6 +52,12 @@
     <Compile Include="AnaSayfa.Designer.cs">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReceteDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceteDuzenle.Designer.cs">
+      <DependentUpon>ReceteDuzenle.cs</DependentUpon>
+    </Compile>
     <Compile Include="girisSayfasi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,12 @@
     </Compile>
     <Compile Include="SignIn.Designer.cs">
       <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İlacDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İlacDuzenle.Designer.cs">
+      <DependentUpon>İlacDuzenle.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
@@ -81,8 +93,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReceteDuzenle.resx">
+      <DependentUpon>ReceteDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İlacDuzenle.resx">
+      <DependentUpon>İlacDuzenle.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

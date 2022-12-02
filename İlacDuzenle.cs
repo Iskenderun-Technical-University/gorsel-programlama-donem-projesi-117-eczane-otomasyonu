@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Giris_Sayfasi
 {
-    public partial class AnaSayfa : Form
+    public partial class İlacDuzenle : Form
     {
-        public AnaSayfa()
+        public İlacDuzenle()
         {
             InitializeComponent();
-        }
-
-        private void closeButton_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

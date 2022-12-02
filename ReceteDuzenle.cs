@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Giris_Sayfasi
 {
-    public partial class AnaSayfa : Form
+    public partial class ReceteDuzenle : Form
     {
-        public AnaSayfa()
+        public ReceteDuzenle()
         {
             InitializeComponent();
         }
 
-        private void closeButton_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
