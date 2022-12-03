@@ -28,5 +28,13 @@ namespace Giris_Sayfasi
             frm.Show();
             this.Close();
         }
+
+        private void İlacDuzenle_Load(object sender, EventArgs e)
+        {
+            İlacList.Columns.Add("İlaç ID",362);
+            İlacList.Columns.Add("İlaç Adı",362);
+            İlacList.Columns.Add("İlaç Ağırlığı(mg)",362);
+            İlacList.Columns.Add("İlaç Adedi",362);
+        }
     }
 }

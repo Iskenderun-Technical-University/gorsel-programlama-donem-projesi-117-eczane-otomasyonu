@@ -1,6 +1,6 @@
 ﻿namespace Giris_Sayfasi
 {
-    partial class SignIn
+    partial class SignUp
     {
         /// <summary>
         /// Required designer variable.

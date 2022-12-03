@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.closeButton = new System.Windows.Forms.Button();
-            this.ilacList = new System.Windows.Forms.ListBox();
             this.ReceteButon = new System.Windows.Forms.Button();
             this.İlacButon = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.listView2 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // closeButton
@@ -48,15 +48,6 @@
             this.closeButton.Text = "X";
             this.closeButton.UseVisualStyleBackColor = false;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
-            // 
-            // ilacList
-            // 
-            this.ilacList.FormattingEnabled = true;
-            this.ilacList.ItemHeight = 21;
-            this.ilacList.Location = new System.Drawing.Point(29, 105);
-            this.ilacList.Name = "ilacList";
-            this.ilacList.Size = new System.Drawing.Size(1304, 277);
-            this.ilacList.TabIndex = 8;
             // 
             // ReceteButon
             // 
@@ -80,14 +71,23 @@
             this.İlacButon.UseVisualStyleBackColor = false;
             this.İlacButon.Click += new System.EventHandler(this.İlacButon_Click);
             // 
-            // listBox1
+            // listView1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 21;
-            this.listBox1.Location = new System.Drawing.Point(29, 410);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1304, 277);
-            this.listBox1.TabIndex = 21;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(12, 76);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1453, 304);
+            this.listView1.TabIndex = 21;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // listView2
+            // 
+            this.listView2.HideSelection = false;
+            this.listView2.Location = new System.Drawing.Point(13, 413);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(1453, 299);
+            this.listView2.TabIndex = 22;
+            this.listView2.UseCompatibleStateImageBehavior = false;
             // 
             // AnaSayfa
             // 
@@ -96,10 +96,10 @@
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1478, 733);
             this.ControlBox = false;
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listView2);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.İlacButon);
             this.Controls.Add(this.ReceteButon);
-            this.Controls.Add(this.ilacList);
             this.Controls.Add(this.closeButton);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(5);
@@ -113,9 +113,9 @@
         #endregion
 
         private System.Windows.Forms.Button closeButton;
-        private System.Windows.Forms.ListBox ilacList;
         private System.Windows.Forms.Button ReceteButon;
         private System.Windows.Forms.Button İlacButon;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView listView2;
     }
 }

@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ReceteID = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -47,18 +45,15 @@
             this.DogumYeri = new System.Windows.Forms.TextBox();
             this.TCKN = new System.Windows.Forms.TextBox();
             this.ReceteList = new System.Windows.Forms.ListView();
+            this.label = new System.Windows.Forms.Label();
+            this.kayitSayisi = new System.Windows.Forms.Label();
             this.Cinsiyet.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // ReceteID
             // 
             this.ReceteID.Location = new System.Drawing.Point(20, 87);
-            this.ReceteID.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ReceteID.Margin = new System.Windows.Forms.Padding(5);
             this.ReceteID.Multiline = true;
             this.ReceteID.Name = "ReceteID";
             this.ReceteID.Size = new System.Drawing.Size(572, 35);
@@ -69,7 +64,7 @@
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(1972, 116);
-            this.button6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button6.Margin = new System.Windows.Forms.Padding(5);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(472, 52);
             this.button6.TabIndex = 8;
@@ -79,7 +74,7 @@
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(1490, 116);
-            this.button7.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button7.Margin = new System.Windows.Forms.Padding(5);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(472, 50);
             this.button7.TabIndex = 9;
@@ -91,7 +86,7 @@
             this.AnaSayfayaDonusButonu.BackColor = System.Drawing.Color.Pink;
             this.AnaSayfayaDonusButonu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AnaSayfayaDonusButonu.Location = new System.Drawing.Point(934, 14);
-            this.AnaSayfayaDonusButonu.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.AnaSayfayaDonusButonu.Margin = new System.Windows.Forms.Padding(5);
             this.AnaSayfayaDonusButonu.Name = "AnaSayfayaDonusButonu";
             this.AnaSayfayaDonusButonu.Size = new System.Drawing.Size(492, 30);
             this.AnaSayfayaDonusButonu.TabIndex = 10;
@@ -122,6 +117,7 @@
             this.ReceteEklemeButonu.TabIndex = 15;
             this.ReceteEklemeButonu.Text = "Ekle";
             this.ReceteEklemeButonu.UseVisualStyleBackColor = false;
+            this.ReceteEklemeButonu.Click += new System.EventHandler(this.ReceteEklemeButonu_Click);
             // 
             // ReceteSilmeButonu
             // 
@@ -160,12 +156,12 @@
             // Bayan
             // 
             this.Bayan.AutoSize = true;
-            this.Bayan.Location = new System.Drawing.Point(67, 27);
+            this.Bayan.Location = new System.Drawing.Point(80, 27);
             this.Bayan.Name = "Bayan";
-            this.Bayan.Size = new System.Drawing.Size(74, 25);
+            this.Bayan.Size = new System.Drawing.Size(50, 25);
             this.Bayan.TabIndex = 22;
             this.Bayan.TabStop = true;
-            this.Bayan.Text = "Bayan";
+            this.Bayan.Text = "Kız";
             this.Bayan.UseVisualStyleBackColor = true;
             this.Bayan.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
@@ -174,19 +170,19 @@
             this.BayRadioButton.AutoSize = true;
             this.BayRadioButton.Location = new System.Drawing.Point(6, 27);
             this.BayRadioButton.Name = "BayRadioButton";
-            this.BayRadioButton.Size = new System.Drawing.Size(55, 25);
+            this.BayRadioButton.Size = new System.Drawing.Size(70, 25);
             this.BayRadioButton.TabIndex = 23;
             this.BayRadioButton.TabStop = true;
-            this.BayRadioButton.Text = "Bay";
+            this.BayRadioButton.Text = "Erkek";
             this.BayRadioButton.UseVisualStyleBackColor = true;
             // 
             // Cinsiyet
             // 
             this.Cinsiyet.Controls.Add(this.Bayan);
             this.Cinsiyet.Controls.Add(this.BayRadioButton);
-            this.Cinsiyet.Location = new System.Drawing.Point(611, 87);
+            this.Cinsiyet.Location = new System.Drawing.Point(614, 87);
             this.Cinsiyet.Name = "Cinsiyet";
-            this.Cinsiyet.Size = new System.Drawing.Size(199, 86);
+            this.Cinsiyet.Size = new System.Drawing.Size(160, 72);
             this.Cinsiyet.TabIndex = 24;
             this.Cinsiyet.TabStop = false;
             this.Cinsiyet.Text = "Cinsiyet";
@@ -233,12 +229,36 @@
             // 
             // ReceteList
             // 
+            this.ReceteList.BackColor = System.Drawing.Color.Pink;
+            this.ReceteList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ReceteList.CheckBoxes = true;
+            this.ReceteList.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.ReceteList.GridLines = true;
             this.ReceteList.HideSelection = false;
-            this.ReceteList.Location = new System.Drawing.Point(19, 346);
+            this.ReceteList.Location = new System.Drawing.Point(12, 346);
             this.ReceteList.Name = "ReceteList";
-            this.ReceteList.Size = new System.Drawing.Size(1445, 382);
+            this.ReceteList.Size = new System.Drawing.Size(1450, 375);
             this.ReceteList.TabIndex = 29;
             this.ReceteList.UseCompatibleStateImageBehavior = false;
+            this.ReceteList.View = System.Windows.Forms.View.Details;
+            // 
+            // label
+            // 
+            this.label.AutoSize = true;
+            this.label.Location = new System.Drawing.Point(12, 317);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(179, 21);
+            this.label.TabIndex = 30;
+            this.label.Text = "Kayıtlı Reçete Sayısı = ";
+            // 
+            // kayitSayisi
+            // 
+            this.kayitSayisi.AutoSize = true;
+            this.kayitSayisi.Location = new System.Drawing.Point(197, 317);
+            this.kayitSayisi.Name = "kayitSayisi";
+            this.kayitSayisi.Size = new System.Drawing.Size(45, 21);
+            this.kayitSayisi.TabIndex = 31;
+            this.kayitSayisi.Text = "_____";
             // 
             // ReceteDuzenle
             // 
@@ -247,6 +267,8 @@
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1478, 733);
             this.ControlBox = false;
+            this.Controls.Add(this.kayitSayisi);
+            this.Controls.Add(this.label);
             this.Controls.Add(this.ReceteList);
             this.Controls.Add(this.DogumYeri);
             this.Controls.Add(this.HastaAdSoyad);
@@ -263,10 +285,11 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.ReceteID);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "ReceteDuzenle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reçete Düzenleme";
+            this.Load += new System.EventHandler(this.ReceteDuzenle_Load);
             this.Cinsiyet.ResumeLayout(false);
             this.Cinsiyet.PerformLayout();
             this.ResumeLayout(false);
@@ -275,7 +298,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox ReceteID;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
@@ -293,5 +315,7 @@
         private System.Windows.Forms.TextBox DogumYeri;
         private System.Windows.Forms.TextBox TCKN;
         private System.Windows.Forms.ListView ReceteList;
+        private System.Windows.Forms.Label label;
+        private System.Windows.Forms.Label kayitSayisi;
     }
 }

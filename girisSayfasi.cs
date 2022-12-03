@@ -34,7 +34,7 @@ namespace Giris_Sayfasi
 
         private void signButton_Click(object sender, EventArgs e)
         {
-            SignIn frm = new SignIn();
+            SignUp frm = new SignUp();
             frm.Show();
             Hide();
         }

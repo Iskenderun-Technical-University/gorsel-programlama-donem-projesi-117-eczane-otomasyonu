@@ -31,10 +31,10 @@ C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.AnaSayfa.resources
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.girisSayfasi.resources
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.Properties.Resources.resources
-C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.SignIn.resources
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.GenerateResource.cache
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.CoreCompileInputs.cache
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.exe
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.pdb
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.ReceteDuzenle.resources
 C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.İlacDuzenle.resources
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.SignUp.resources
