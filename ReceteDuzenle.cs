@@ -96,6 +96,11 @@ namespace Giris_Sayfasi
                     MessageBox.Show("Kayit Bilgilerinde Eksiklik Var!!");
             }
             kayitSayisiYaz();
-        }   
+        }
+
+        private void BayRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

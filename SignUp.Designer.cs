@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.PsswrdTxtBox = new System.Windows.Forms.TextBox();
             this.psswrdSign = new System.Windows.Forms.Label();
             this.UserLogTxtBox = new System.Windows.Forms.TextBox();
             this.UsrNameSign = new System.Windows.Forms.Label();
@@ -38,20 +37,8 @@
             this.nameSign = new System.Windows.Forms.Label();
             this.closeButton = new System.Windows.Forms.Button();
             this.signButton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // PsswrdTxtBox
-            // 
-            this.PsswrdTxtBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PsswrdTxtBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.PsswrdTxtBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.PsswrdTxtBox.Location = new System.Drawing.Point(619, 323);
-            this.PsswrdTxtBox.Multiline = true;
-            this.PsswrdTxtBox.Name = "PsswrdTxtBox";
-            this.PsswrdTxtBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.PsswrdTxtBox.Size = new System.Drawing.Size(338, 27);
-            this.PsswrdTxtBox.TabIndex = 6;
-            this.PsswrdTxtBox.UseSystemPasswordChar = true;
             // 
             // psswrdSign
             // 
@@ -164,26 +151,33 @@
             this.signButton.UseVisualStyleBackColor = false;
             this.signButton.Click += new System.EventHandler(this.signButton_Click);
             // 
-            // SignIn
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(619, 321);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(338, 28);
+            this.textBox1.TabIndex = 15;
+            // 
+            // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1478, 733);
             this.ControlBox = false;
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.signButton);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.lastNameTxtBox);
             this.Controls.Add(this.lastNameSign);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.nameSign);
-            this.Controls.Add(this.PsswrdTxtBox);
             this.Controls.Add(this.psswrdSign);
             this.Controls.Add(this.UserLogTxtBox);
             this.Controls.Add(this.UsrNameSign);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.Name = "SignIn";
+            this.Name = "SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sign Up";
             this.ResumeLayout(false);
@@ -192,8 +186,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox PsswrdTxtBox;
         private System.Windows.Forms.Label psswrdSign;
         private System.Windows.Forms.TextBox UserLogTxtBox;
         private System.Windows.Forms.Label UsrNameSign;
@@ -203,5 +195,6 @@
         private System.Windows.Forms.Label nameSign;
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.Button signButton;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

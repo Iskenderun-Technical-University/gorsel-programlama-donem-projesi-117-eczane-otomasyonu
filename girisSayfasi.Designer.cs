@@ -89,6 +89,7 @@
             this.UserLogTxtBox.Size = new System.Drawing.Size(338, 27);
             this.UserLogTxtBox.TabIndex = 3;
             this.UserLogTxtBox.UseSystemPasswordChar = true;
+            this.UserLogTxtBox.TextChanged += new System.EventHandler(this.UserLogTxtBox_TextChanged);
             // 
             // psswrdLog
             // 

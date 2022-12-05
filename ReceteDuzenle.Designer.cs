@@ -175,6 +175,7 @@
             this.BayRadioButton.TabStop = true;
             this.BayRadioButton.Text = "Erkek";
             this.BayRadioButton.UseVisualStyleBackColor = true;
+            this.BayRadioButton.CheckedChanged += new System.EventHandler(this.BayRadioButton_CheckedChanged);
             // 
             // Cinsiyet
             // 

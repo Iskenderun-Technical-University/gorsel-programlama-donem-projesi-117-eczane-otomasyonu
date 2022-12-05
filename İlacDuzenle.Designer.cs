@@ -38,7 +38,9 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.ilacAgirlik = new System.Windows.Forms.TextBox();
             this.ilacAdi = new System.Windows.Forms.TextBox();
-            this.İlacList = new System.Windows.Forms.ListView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -107,6 +109,7 @@
             this.İlacAdiGirme.Size = new System.Drawing.Size(572, 35);
             this.İlacAdiGirme.TabIndex = 21;
             this.İlacAdiGirme.Text = "İlaç ID Gir";
+            this.İlacAdiGirme.TextChanged += new System.EventHandler(this.İlacAdiGirme_TextChanged);
             // 
             // closeButton
             // 
@@ -152,18 +155,29 @@
             this.ilacAdi.TabIndex = 34;
             this.ilacAdi.Text = "İlaç Adı Gir";
             // 
-            // İlacList
+            // button1
             // 
-            this.İlacList.BackColor = System.Drawing.Color.Pink;
-            this.İlacList.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.İlacList.GridLines = true;
-            this.İlacList.HideSelection = false;
-            this.İlacList.Location = new System.Drawing.Point(16, 233);
-            this.İlacList.Name = "İlacList";
-            this.İlacList.Size = new System.Drawing.Size(1450, 488);
-            this.İlacList.TabIndex = 35;
-            this.İlacList.UseCompatibleStateImageBehavior = false;
-            this.İlacList.View = System.Windows.Forms.View.Details;
+            this.button1.BackColor = System.Drawing.Color.Pink;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(16, 14);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(210, 35);
+            this.button1.TabIndex = 36;
+            this.button1.Text = "Listele";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightPink;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.MenuText;
+            this.dataGridView1.Location = new System.Drawing.Point(16, 256);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1192, 279);
+            this.dataGridView1.TabIndex = 37;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // İlacDuzenle
             // 
@@ -172,7 +186,8 @@
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1478, 733);
             this.ControlBox = false;
-            this.Controls.Add(this.İlacList);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ilacAdi);
             this.Controls.Add(this.ilacAgirlik);
             this.Controls.Add(this.textBox3);
@@ -188,7 +203,7 @@
             this.Name = "İlacDuzenle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "İlaç Düzenleme";
-            this.Load += new System.EventHandler(this.İlacDuzenle_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,6 +221,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox ilacAgirlik;
         private System.Windows.Forms.TextBox ilacAdi;
-        private System.Windows.Forms.ListView İlacList;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
