@@ -46,8 +46,8 @@ namespace Giris_Sayfasi
         {
             string user = UserLogTxtBox.Text;
             string pass = PsswrdTxtBox.Text;
-            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\proje1\\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\\proje.mdf;Integrated Security=True");
-            SqlCommand cmd = new SqlCommand("select * from login where kullanici_adi='" + UserLogTxtBox.Text + "'And kullanici_sifre='" + PsswrdTxtBox.Text + "'", con);
+            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\source\\repos\\projee\\Database1.mdf;Integrated Security=True");
+            SqlCommand cmd = new SqlCommand("select * from signup where user_name='" + UserLogTxtBox.Text + "'And user_pass='" + PsswrdTxtBox.Text + "'", con);
             con.Open();
             SqlDataReader dr = cmd.ExecuteReader();
             if (dr.Read())

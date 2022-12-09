@@ -74,6 +74,7 @@
             this.ReceteEklemeButonu.TabIndex = 24;
             this.ReceteEklemeButonu.Text = "Ekle";
             this.ReceteEklemeButonu.UseVisualStyleBackColor = false;
+            this.ReceteEklemeButonu.Click += new System.EventHandler(this.ReceteEklemeButonu_Click);
             // 
             // ReceteAramaProgramı
             // 

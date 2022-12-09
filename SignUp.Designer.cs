@@ -28,100 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.psswrdSign = new System.Windows.Forms.Label();
-            this.UserLogTxtBox = new System.Windows.Forms.TextBox();
-            this.UsrNameSign = new System.Windows.Forms.Label();
-            this.lastNameTxtBox = new System.Windows.Forms.TextBox();
-            this.lastNameSign = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.nameSign = new System.Windows.Forms.Label();
             this.closeButton = new System.Windows.Forms.Button();
             this.signButton = new System.Windows.Forms.Button();
+            this.lastNameSign = new System.Windows.Forms.Label();
+            this.lastNameTxtBox = new System.Windows.Forms.TextBox();
+            this.nameSign = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.psswrdSign = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.UsrNameSign = new System.Windows.Forms.Label();
+            this.UserLogTxtBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // psswrdSign
-            // 
-            this.psswrdSign.AutoSize = true;
-            this.psswrdSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.psswrdSign.Location = new System.Drawing.Point(513, 324);
-            this.psswrdSign.Name = "psswrdSign";
-            this.psswrdSign.Size = new System.Drawing.Size(85, 26);
-            this.psswrdSign.TabIndex = 8;
-            this.psswrdSign.Text = "Password:";
-            this.psswrdSign.UseCompatibleTextRendering = true;
-            // 
-            // UserLogTxtBox
-            // 
-            this.UserLogTxtBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.UserLogTxtBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.UserLogTxtBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.UserLogTxtBox.Location = new System.Drawing.Point(619, 285);
-            this.UserLogTxtBox.Multiline = true;
-            this.UserLogTxtBox.Name = "UserLogTxtBox";
-            this.UserLogTxtBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.UserLogTxtBox.Size = new System.Drawing.Size(338, 27);
-            this.UserLogTxtBox.TabIndex = 7;
-            this.UserLogTxtBox.UseSystemPasswordChar = true;
-            // 
-            // UsrNameSign
-            // 
-            this.UsrNameSign.AutoSize = true;
-            this.UsrNameSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.UsrNameSign.Location = new System.Drawing.Point(500, 285);
-            this.UsrNameSign.Name = "UsrNameSign";
-            this.UsrNameSign.Size = new System.Drawing.Size(98, 26);
-            this.UsrNameSign.TabIndex = 5;
-            this.UsrNameSign.Text = "User Name:";
-            this.UsrNameSign.UseCompatibleTextRendering = true;
-            // 
-            // lastNameTxtBox
-            // 
-            this.lastNameTxtBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lastNameTxtBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.lastNameTxtBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lastNameTxtBox.Location = new System.Drawing.Point(619, 394);
-            this.lastNameTxtBox.Multiline = true;
-            this.lastNameTxtBox.Name = "lastNameTxtBox";
-            this.lastNameTxtBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lastNameTxtBox.Size = new System.Drawing.Size(338, 27);
-            this.lastNameTxtBox.TabIndex = 10;
-            this.lastNameTxtBox.UseSystemPasswordChar = true;
-            // 
-            // lastNameSign
-            // 
-            this.lastNameSign.AutoSize = true;
-            this.lastNameSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lastNameSign.Location = new System.Drawing.Point(505, 395);
-            this.lastNameSign.Name = "lastNameSign";
-            this.lastNameSign.Size = new System.Drawing.Size(93, 26);
-            this.lastNameSign.TabIndex = 12;
-            this.lastNameSign.Text = "Last Name:";
-            this.lastNameSign.UseCompatibleTextRendering = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(619, 356);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox2.Size = new System.Drawing.Size(338, 27);
-            this.textBox2.TabIndex = 11;
-            this.textBox2.UseSystemPasswordChar = true;
-            // 
-            // nameSign
-            // 
-            this.nameSign.AutoSize = true;
-            this.nameSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.nameSign.Location = new System.Drawing.Point(541, 359);
-            this.nameSign.Name = "nameSign";
-            this.nameSign.Size = new System.Drawing.Size(57, 26);
-            this.nameSign.TabIndex = 9;
-            this.nameSign.Text = "Name:";
-            this.nameSign.UseCompatibleTextRendering = true;
             // 
             // closeButton
             // 
@@ -151,12 +68,96 @@
             this.signButton.UseVisualStyleBackColor = false;
             this.signButton.Click += new System.EventHandler(this.signButton_Click);
             // 
+            // lastNameSign
+            // 
+            this.lastNameSign.AutoSize = true;
+            this.lastNameSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lastNameSign.Location = new System.Drawing.Point(505, 395);
+            this.lastNameSign.Name = "lastNameSign";
+            this.lastNameSign.Size = new System.Drawing.Size(93, 26);
+            this.lastNameSign.TabIndex = 12;
+            this.lastNameSign.Text = "Last Name:";
+            this.lastNameSign.UseCompatibleTextRendering = true;
+            // 
+            // lastNameTxtBox
+            // 
+            this.lastNameTxtBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lastNameTxtBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.lastNameTxtBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lastNameTxtBox.Location = new System.Drawing.Point(619, 394);
+            this.lastNameTxtBox.Multiline = true;
+            this.lastNameTxtBox.Name = "lastNameTxtBox";
+            this.lastNameTxtBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lastNameTxtBox.Size = new System.Drawing.Size(338, 27);
+            this.lastNameTxtBox.TabIndex = 10;
+            this.lastNameTxtBox.UseSystemPasswordChar = true;
+            // 
+            // nameSign
+            // 
+            this.nameSign.AutoSize = true;
+            this.nameSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.nameSign.Location = new System.Drawing.Point(541, 359);
+            this.nameSign.Name = "nameSign";
+            this.nameSign.Size = new System.Drawing.Size(57, 26);
+            this.nameSign.TabIndex = 9;
+            this.nameSign.Text = "Name:";
+            this.nameSign.UseCompatibleTextRendering = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox2.Location = new System.Drawing.Point(619, 356);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox2.Size = new System.Drawing.Size(338, 27);
+            this.textBox2.TabIndex = 11;
+            this.textBox2.UseSystemPasswordChar = true;
+            // 
+            // psswrdSign
+            // 
+            this.psswrdSign.AutoSize = true;
+            this.psswrdSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.psswrdSign.Location = new System.Drawing.Point(513, 324);
+            this.psswrdSign.Name = "psswrdSign";
+            this.psswrdSign.Size = new System.Drawing.Size(85, 26);
+            this.psswrdSign.TabIndex = 8;
+            this.psswrdSign.Text = "Password:";
+            this.psswrdSign.UseCompatibleTextRendering = true;
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(619, 321);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(338, 28);
             this.textBox1.TabIndex = 15;
+            // 
+            // UsrNameSign
+            // 
+            this.UsrNameSign.AutoSize = true;
+            this.UsrNameSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.UsrNameSign.Location = new System.Drawing.Point(500, 285);
+            this.UsrNameSign.Name = "UsrNameSign";
+            this.UsrNameSign.Size = new System.Drawing.Size(98, 26);
+            this.UsrNameSign.TabIndex = 5;
+            this.UsrNameSign.Text = "User Name:";
+            this.UsrNameSign.UseCompatibleTextRendering = true;
+            // 
+            // UserLogTxtBox
+            // 
+            this.UserLogTxtBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.UserLogTxtBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.UserLogTxtBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.UserLogTxtBox.Location = new System.Drawing.Point(619, 285);
+            this.UserLogTxtBox.Multiline = true;
+            this.UserLogTxtBox.Name = "UserLogTxtBox";
+            this.UserLogTxtBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.UserLogTxtBox.Size = new System.Drawing.Size(338, 27);
+            this.UserLogTxtBox.TabIndex = 7;
+            this.UserLogTxtBox.UseSystemPasswordChar = true;
+            this.UserLogTxtBox.TextChanged += new System.EventHandler(this.UserLogTxtBox_TextChanged);
             // 
             // SignUp
             // 
@@ -186,15 +187,15 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label psswrdSign;
-        private System.Windows.Forms.TextBox UserLogTxtBox;
-        private System.Windows.Forms.Label UsrNameSign;
-        private System.Windows.Forms.TextBox lastNameTxtBox;
-        private System.Windows.Forms.Label lastNameSign;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label nameSign;
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.Button signButton;
+        private System.Windows.Forms.Label lastNameSign;
+        private System.Windows.Forms.TextBox lastNameTxtBox;
+        private System.Windows.Forms.Label nameSign;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label psswrdSign;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label UsrNameSign;
+        private System.Windows.Forms.TextBox UserLogTxtBox;
     }
 }

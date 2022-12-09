@@ -44,10 +44,12 @@
             this.HastaAdSoyad = new System.Windows.Forms.TextBox();
             this.DogumYeri = new System.Windows.Forms.TextBox();
             this.TCKN = new System.Windows.Forms.TextBox();
-            this.ReceteList = new System.Windows.Forms.ListView();
             this.label = new System.Windows.Forms.Label();
             this.kayitSayisi = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Cinsiyet.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // ReceteID
@@ -228,25 +230,10 @@
             this.TCKN.TabIndex = 26;
             this.TCKN.Text = "TCKN";
             // 
-            // ReceteList
-            // 
-            this.ReceteList.BackColor = System.Drawing.Color.Pink;
-            this.ReceteList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ReceteList.CheckBoxes = true;
-            this.ReceteList.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.ReceteList.GridLines = true;
-            this.ReceteList.HideSelection = false;
-            this.ReceteList.Location = new System.Drawing.Point(12, 346);
-            this.ReceteList.Name = "ReceteList";
-            this.ReceteList.Size = new System.Drawing.Size(1450, 375);
-            this.ReceteList.TabIndex = 29;
-            this.ReceteList.UseCompatibleStateImageBehavior = false;
-            this.ReceteList.View = System.Windows.Forms.View.Details;
-            // 
             // label
             // 
             this.label.AutoSize = true;
-            this.label.Location = new System.Drawing.Point(12, 317);
+            this.label.Location = new System.Drawing.Point(18, 317);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(179, 21);
             this.label.TabIndex = 30;
@@ -255,11 +242,34 @@
             // kayitSayisi
             // 
             this.kayitSayisi.AutoSize = true;
-            this.kayitSayisi.Location = new System.Drawing.Point(197, 317);
+            this.kayitSayisi.Location = new System.Drawing.Point(190, 317);
             this.kayitSayisi.Name = "kayitSayisi";
             this.kayitSayisi.Size = new System.Drawing.Size(45, 21);
             this.kayitSayisi.TabIndex = 31;
             this.kayitSayisi.Text = "_____";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Pink;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(822, 258);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(202, 35);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "Listele";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightPink;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.MenuText;
+            this.dataGridView1.Location = new System.Drawing.Point(22, 360);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1192, 279);
+            this.dataGridView1.TabIndex = 38;
             // 
             // ReceteDuzenle
             // 
@@ -268,9 +278,10 @@
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1478, 733);
             this.ControlBox = false;
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.kayitSayisi);
             this.Controls.Add(this.label);
-            this.Controls.Add(this.ReceteList);
             this.Controls.Add(this.DogumYeri);
             this.Controls.Add(this.HastaAdSoyad);
             this.Controls.Add(this.TCKN);
@@ -290,9 +301,10 @@
             this.Name = "ReceteDuzenle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reçete Düzenleme";
-            this.Load += new System.EventHandler(this.ReceteDuzenle_Load);
+            //this.Load += new System.EventHandler(this.ReceteDuzenle_Load);
             this.Cinsiyet.ResumeLayout(false);
             this.Cinsiyet.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -315,8 +327,9 @@
         private System.Windows.Forms.TextBox HastaAdSoyad;
         private System.Windows.Forms.TextBox DogumYeri;
         private System.Windows.Forms.TextBox TCKN;
-        private System.Windows.Forms.ListView ReceteList;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label kayitSayisi;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

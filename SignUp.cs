@@ -26,14 +26,18 @@ namespace Giris_Sayfasi
 
         private void signButton_Click(object sender, EventArgs e)
         {
-
-            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\proje1\\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\\proje.mdf;Integrated Security=True");
-            con.Open(); 
-            SqlCommand cmd = new SqlCommand("Insert into login (kullanici_adi,kullanici_sifre) values ('"+UserLogTxtBox+"','"+textBox1+"')",con);
+            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\source\\repos\\projee\\Database1.mdf;Integrated Security=True");
+            con.Open();
+            string sql = "insert into signup(user_name,user_pass) values('"+UserLogTxtBox.Text+"','"+textBox1.Text+"')";
+            SqlCommand com = new SqlCommand(sql, con);
+            com.ExecuteNonQuery();
             con.Close();
-            girisSayfasi frm = new girisSayfasi();
-            frm.Show();
-            this.Close();
+            MessageBox.Show("basarili");
+        }
+
+        private void UserLogTxtBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,6 +10,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Giris_Sayfasi
 {
@@ -42,9 +43,9 @@ namespace Giris_Sayfasi
             dataGridView1.Columns.Add("ilac_ad", "ilaç adı");
             dataGridView1.Columns.Add("ilac_mg", "ilaç mg");
             dataGridView1.Columns.Add("ilac_adet", "ilaç adet");
-            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\proje1\\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\\proje.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\source\\repos\\projee\\Database1.mdf;Integrated Security=True");
             con.Open();
-            SqlCommand cmd = new SqlCommand("select * from ilac",con);
+            SqlCommand cmd = new SqlCommand("select * from medicine",con);
             SqlDataReader dr = cmd.ExecuteReader();
             while(dr.Read())
             {
@@ -59,6 +60,17 @@ namespace Giris_Sayfasi
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void ReceteEklemeButonu_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\source\\repos\\projee\\Database1.mdf;Integrated Security=True");
+            con.Open();
+            string sql = "insert into medicine(med_isim,med_gr,med_ad) values('" +ilacAdi.Text+ "','" +ilacAgirlik.Text+ "','"+textBox3.Text+"')";
+            SqlCommand com = new SqlCommand(sql, con);
+            com.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("basarili");
         }
     }
 }
