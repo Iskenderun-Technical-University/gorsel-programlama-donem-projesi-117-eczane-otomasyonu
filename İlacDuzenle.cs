@@ -39,6 +39,8 @@ namespace Giris_Sayfasi
 
         private void button1_Click(object sender, EventArgs e)
         {
+            dataGridView1.Rows.Clear();
+            dataGridView1.Columns.Clear();
             dataGridView1.Columns.Add("ilac_id", "ilaç id");
             dataGridView1.Columns.Add("ilac_ad", "ilaç adı");
             dataGridView1.Columns.Add("ilac_mg", "ilaç mg");
@@ -71,6 +73,24 @@ namespace Giris_Sayfasi
             com.ExecuteNonQuery();
             con.Close();
             MessageBox.Show("basarili");
+        }
+
+        private void ReceteSilmeButonu_Click(object sender, EventArgs e)
+        {
+            foreach(DataGridViewRow item in this.dataGridView1.SelectedRows)
+            {
+                dataGridView1.Rows.RemoveAt(item.Index);
+                SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\source\\repos\\projee\\Database1.mdf;Integrated Security=True");
+                SqlCommand cmd = new SqlCommand("Delete from medicine where med_id = @med_id ", con);
+                cmd.Parameters.AddWithValue("@med_id", dataGridView1.CurrentRow.Cells[0].Value);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        private void İlacDuzenle_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

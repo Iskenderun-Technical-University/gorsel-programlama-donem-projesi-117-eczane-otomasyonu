@@ -61,7 +61,8 @@ namespace Giris_Sayfasi
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            dataGridView1.Columns.Clear();
+            dataGridView1.Rows.Clear();
             dataGridView1.Columns.Add("recId", "id");
             dataGridView1.Columns.Add("hadsoy", "adı ve soyadı");
             dataGridView1.Columns.Add("tckn", "tckn");
@@ -74,6 +75,20 @@ namespace Giris_Sayfasi
             while (dr.Read())
             {
                 dataGridView1.Rows.Add(dr[0], dr[1], dr[2], dr[3], dr[4]);
+            }
+        }
+
+        private void ReceteSilmeButonu_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow item in this.dataGridView1.SelectedRows)
+            {
+                dataGridView1.Rows.RemoveAt(item.Index);
+                SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Gürkan\\source\\repos\\projee\\Database1.mdf;Integrated Security=True");
+                SqlCommand cmd = new SqlCommand("Delete from rec where recId = @recId ", con);
+                cmd.Parameters.AddWithValue("@recId", dataGridView1.CurrentRow.Cells[0].Value);
+                con.Open();
+                cmd.ExecuteNonQuery();
+
             }
         }
     }

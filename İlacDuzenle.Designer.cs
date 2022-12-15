@@ -29,17 +29,16 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.ReceteSilmeButonu = new System.Windows.Forms.Button();
             this.ReceteEklemeButonu = new System.Windows.Forms.Button();
             this.ReceteAramaProgramı = new System.Windows.Forms.Button();
             this.AnaSayfayaDonusButonu = new System.Windows.Forms.Button();
-            this.İlacAdiGirme = new System.Windows.Forms.TextBox();
             this.closeButton = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.ilacAgirlik = new System.Windows.Forms.TextBox();
             this.ilacAdi = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ReceteSilmeButonu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,18 +49,6 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 21);
             this.label1.TabIndex = 28;
-            // 
-            // ReceteSilmeButonu
-            // 
-            this.ReceteSilmeButonu.BackColor = System.Drawing.Color.Pink;
-            this.ReceteSilmeButonu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ReceteSilmeButonu.Location = new System.Drawing.Point(456, 181);
-            this.ReceteSilmeButonu.Margin = new System.Windows.Forms.Padding(5);
-            this.ReceteSilmeButonu.Name = "ReceteSilmeButonu";
-            this.ReceteSilmeButonu.Size = new System.Drawing.Size(210, 35);
-            this.ReceteSilmeButonu.TabIndex = 25;
-            this.ReceteSilmeButonu.Text = "Sil";
-            this.ReceteSilmeButonu.UseVisualStyleBackColor = false;
             // 
             // ReceteEklemeButonu
             // 
@@ -101,17 +88,6 @@
             this.AnaSayfayaDonusButonu.UseVisualStyleBackColor = false;
             this.AnaSayfayaDonusButonu.Click += new System.EventHandler(this.AnaSayfayaDonusButonu_Click);
             // 
-            // İlacAdiGirme
-            // 
-            this.İlacAdiGirme.Location = new System.Drawing.Point(16, 74);
-            this.İlacAdiGirme.Margin = new System.Windows.Forms.Padding(5);
-            this.İlacAdiGirme.Multiline = true;
-            this.İlacAdiGirme.Name = "İlacAdiGirme";
-            this.İlacAdiGirme.Size = new System.Drawing.Size(572, 35);
-            this.İlacAdiGirme.TabIndex = 21;
-            this.İlacAdiGirme.Text = "İlaç ID Gir";
-            this.İlacAdiGirme.TextChanged += new System.EventHandler(this.İlacAdiGirme_TextChanged);
-            // 
             // closeButton
             // 
             this.closeButton.BackColor = System.Drawing.Color.Red;
@@ -128,7 +104,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(636, 119);
+            this.textBox3.Location = new System.Drawing.Point(623, 74);
             this.textBox3.Margin = new System.Windows.Forms.Padding(5);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -138,7 +114,7 @@
             // 
             // ilacAgirlik
             // 
-            this.ilacAgirlik.Location = new System.Drawing.Point(636, 74);
+            this.ilacAgirlik.Location = new System.Drawing.Point(16, 74);
             this.ilacAgirlik.Margin = new System.Windows.Forms.Padding(5);
             this.ilacAgirlik.Multiline = true;
             this.ilacAgirlik.Name = "ilacAgirlik";
@@ -180,6 +156,19 @@
             this.dataGridView1.TabIndex = 37;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // ReceteSilmeButonu
+            // 
+            this.ReceteSilmeButonu.BackColor = System.Drawing.Color.Pink;
+            this.ReceteSilmeButonu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ReceteSilmeButonu.Location = new System.Drawing.Point(456, 181);
+            this.ReceteSilmeButonu.Margin = new System.Windows.Forms.Padding(5);
+            this.ReceteSilmeButonu.Name = "ReceteSilmeButonu";
+            this.ReceteSilmeButonu.Size = new System.Drawing.Size(210, 35);
+            this.ReceteSilmeButonu.TabIndex = 25;
+            this.ReceteSilmeButonu.Text = "Sil";
+            this.ReceteSilmeButonu.UseVisualStyleBackColor = false;
+            this.ReceteSilmeButonu.Click += new System.EventHandler(this.ReceteSilmeButonu_Click);
+            // 
             // İlacDuzenle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -198,12 +187,12 @@
             this.Controls.Add(this.ReceteEklemeButonu);
             this.Controls.Add(this.ReceteAramaProgramı);
             this.Controls.Add(this.AnaSayfayaDonusButonu);
-            this.Controls.Add(this.İlacAdiGirme);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "İlacDuzenle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "İlaç Düzenleme";
+            this.Load += new System.EventHandler(this.İlacDuzenle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -213,16 +202,15 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button ReceteSilmeButonu;
         private System.Windows.Forms.Button ReceteEklemeButonu;
         private System.Windows.Forms.Button ReceteAramaProgramı;
         private System.Windows.Forms.Button AnaSayfayaDonusButonu;
-        private System.Windows.Forms.TextBox İlacAdiGirme;
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox ilacAgirlik;
         private System.Windows.Forms.TextBox ilacAdi;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button ReceteSilmeButonu;
     }
 }
