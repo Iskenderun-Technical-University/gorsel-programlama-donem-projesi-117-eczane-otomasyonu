@@ -1,0 +1,74 @@
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\bin\Debug\Giris-Sayfasi.exe.config
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\bin\Debug\Giris-Sayfasi.exe
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\bin\Debug\Giris-Sayfasi.pdb
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Eczane-Otomasyon-Programi.csproj.AssemblyReference.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Eczane-Otomasyon-Programi.csproj.SuggestedBindingRedirects.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris_Sayfasi.girisSayfasi.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris_Sayfasi.Properties.Resources.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Eczane-Otomasyon-Programi.csproj.GenerateResource.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Eczane-Otomasyon-Programi.csproj.CoreCompileInputs.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris-Sayfasi.exe
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris-Sayfasi.pdb
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Giris-Sayfasi\obj\Debug\Giris_Sayfasi.SignIn.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.exe.config
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.exe
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.pdb
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.AssemblyReference.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.SuggestedBindingRedirects.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.AnaSayfa.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.girisSayfasi.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.Properties.Resources.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.SignIn.resources
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.GenerateResource.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.CoreCompileInputs.cache
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.exe
+C:\Users\cayma\Desktop\Vstudio\Görsel Programlama\Eczane-Otomasyonu\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.pdb
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.exe.config
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.exe
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.pdb
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.AssemblyReference.cache
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.SuggestedBindingRedirects.cache
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.AnaSayfa.resources
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.girisSayfasi.resources
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.Properties.Resources.resources
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.GenerateResource.cache
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.CoreCompileInputs.cache
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.exe
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.pdb
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.ReceteDuzenle.resources
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.İlacDuzenle.resources
+C:\Users\cayma\Desktop\Görsel Programlama\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.SignUp.resources
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.exe.config
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.exe
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\Giris-Sayfasi.pdb
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.AssemblyReference.cache
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.AnaSayfa.resources
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.girisSayfasi.resources
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.Properties.Resources.resources
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.ReceteDuzenle.resources
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.SignUp.resources
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris_Sayfasi.İlacDuzenle.resources
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.GenerateResource.cache
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Eczane-Otomasyon-Programi.csproj.CoreCompileInputs.cache
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.exe
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\obj\Debug\Giris-Sayfasi.pdb
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\proje.mdf
+C:\Users\Gürkan\proje1\gorsel-programlama-donem-projesi-117-eczane-otomasyonu\bin\Debug\proje_log.ldf
+C:\Users\Gürkan\source\repos\projee\bin\Debug\Giris-Sayfasi.exe.config
+C:\Users\Gürkan\source\repos\projee\bin\Debug\Giris-Sayfasi.exe
+C:\Users\Gürkan\source\repos\projee\bin\Debug\Giris-Sayfasi.pdb
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Eczane-Otomasyon-Programi.csproj.AssemblyReference.cache
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Eczane-Otomasyon-Programi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Giris_Sayfasi.AnaSayfa.resources
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Giris_Sayfasi.girisSayfasi.resources
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Giris_Sayfasi.Properties.Resources.resources
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Giris_Sayfasi.ReceteDuzenle.resources
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Giris_Sayfasi.SignUp.resources
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Giris_Sayfasi.İlacDuzenle.resources
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Eczane-Otomasyon-Programi.csproj.GenerateResource.cache
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Eczane-Otomasyon-Programi.csproj.CoreCompileInputs.cache
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Giris-Sayfasi.exe
+C:\Users\Gürkan\source\repos\projee\obj\Debug\Giris-Sayfasi.pdb
+C:\Users\Gürkan\source\repos\projee\bin\Debug\Database1.mdf
+C:\Users\Gürkan\source\repos\projee\bin\Debug\Database1_log.ldf
